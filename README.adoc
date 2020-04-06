@@ -1,0 +1,31 @@
+= Ejemplo de Cache =
+
+Este es un ejemplo de como la se va a utilizar la cache para un valor que se encuentra en la cache
+
+== ¿Cómo funciona?
+
+Este es un ejemplo básico de guardar en cache un resultado de base de datos.
+Para ello se han utilizado los starter de spring boot
+
+```
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-data-jpa</artifactId>
+    </dependency>
+
+   <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-cache</artifactId>
+    </dependency>
+```
+y con la anotación @Cacheable hemos metido el resultado en la cache.
+
+== ¿Cómo arrancarlo?
+
+Se puede arrancar con el siguiente comando maven:
+
+```
+mvn spring-boot:run
+```
+
+
