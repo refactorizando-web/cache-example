@@ -1,6 +1,8 @@
 = Ejemplo de Cache =
 
-Este es un ejemplo de como la se va a utilizar la cache para un valor que se encuentra en la cache
+Este es un ejemplo de como la se va a utilizar la cache para un valor que se encuentra en la cache.
+
+Para ver documentación: https://refactorizando.com/cache-spring/
 
 == ¿Cómo funciona?
 
